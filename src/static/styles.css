@@ -113,6 +113,51 @@ body.dark-mode .activity-card {
   font-style: italic;
 }
 
+.participant-card {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body.dark-mode .participant-card {
+  background-color: #2a2a2a;
+  border-color: #444;
+}
+
+.participant-card h4 {
+  margin-bottom: 10px;
+  color: #1a237e;
+}
+
+.participant-card p {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+body.dark-mode .participant-card p {
+  color: #e0e0e0;
+}
+
+.participant-card ul {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #555;
+}
+
+body.dark-mode .participant-card ul {
+  color: #aaa;
+}
+
+.participant-card ul li {
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-style: italic;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
